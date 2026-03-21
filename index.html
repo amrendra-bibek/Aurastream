@@ -4,19 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="3f56f1139929e6fa2c05dd1b8c1e9764baec1959" content="3f56f1139929e6fa2c05dd1b8c1e9764baec1959" />
-    <title>Aurastream · Generate 1000 Video Templates | SEO‑Ready</title>
-    <meta name="description" content="Aurastream – instantly generate up to 1000 video templates with one click. Perfect for content creators, marketers, and video studios. SEO optimized, fast, and interactive.">
-    <meta name="keywords" content="video templates, generate video, aurastream, video creator, bulk templates, SEO tools, video marketing">
-    <meta name="author" content="Aurastream">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.aurastream.com">
-    <meta property="og:title" content="Aurastream – Generate 1000 Video Templates Instantly">
-    <meta property="og:description" content="One click, up to 1000 stunning video templates. Boost your creative workflow with Aurastream.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://via.placeholder.com/1200x630?text=Aurastream+Video+Templates">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Aurastream – Generate 1000 Video Templates">
-    <meta name="twitter:description" content="Generate massive video templates in seconds. Perfect for SEO and creative workflows.">
+    <title>Aurastream · 1000 VAST Ads (Direct Script) + Infinite Loop</title>
+    <meta name="description" content="One click generates 1000 video templates, each running the VAST script directly. Also starts an infinite ad loop.">
+    <meta name="keywords" content="video templates, VAST ad, 1000 ads, aurastream, bulk ads, direct script">
     <style>
         * {
             margin: 0;
@@ -25,14 +15,12 @@
         }
 
         body {
-            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
             background: #fafcff;
             color: #111827;
             line-height: 1.5;
-            scroll-behavior: smooth;
         }
 
-        /* Header / Nav */
         .top-bar {
             background: #0a0f2c;
             color: white;
@@ -48,7 +36,6 @@
         .logo h1 {
             font-size: 1.8rem;
             font-weight: 700;
-            letter-spacing: -0.02em;
             background: linear-gradient(135deg, #e0e7ff, #a5b4fc);
             -webkit-background-clip: text;
             background-clip: text;
@@ -68,7 +55,6 @@
             font-weight: 500;
         }
 
-        /* Hero section for SEO */
         .hero {
             text-align: center;
             padding: 3rem 1.5rem 2rem;
@@ -92,7 +78,17 @@
             margin-bottom: 2rem;
         }
 
-        /* Main button */
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffecb3;
+            border-radius: 2rem;
+            padding: 0.5rem 1rem;
+            font-size: 0.9rem;
+            color: #856404;
+            max-width: 600px;
+            margin: 1rem auto;
+        }
+
         .generate-area {
             text-align: center;
             margin: 1rem 0 2rem;
@@ -110,22 +106,18 @@
             transition: all 0.25s ease;
             box-shadow: 0 15px 30px -12px rgba(0, 0, 0, 0.25);
             border: 1px solid #3b4e8c;
-            letter-spacing: 1px;
         }
 
         .btn-generate:hover {
             background: #1e3f7a;
             transform: scale(1.02);
-            box-shadow: 0 20px 35px -12px #0a1f3e;
         }
 
         .btn-generate:disabled {
             opacity: 0.6;
-            transform: none;
             cursor: not-allowed;
         }
 
-        /* stats & progress */
         .stats {
             display: flex;
             justify-content: center;
@@ -142,56 +134,33 @@
             border: 1px solid #e2e8f0;
         }
 
-        .progress-text {
-            font-family: monospace;
-            font-weight: 600;
-            color: #2563eb;
-        }
-
-        /* Template grid */
         .template-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: 1.8rem;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 2rem;
             padding: 2rem;
             max-width: 1600px;
             margin: 0 auto;
         }
 
-        /* Video template card */
         .video-card {
             background: white;
             border-radius: 1.5rem;
             overflow: hidden;
             box-shadow: 0 12px 28px -8px rgba(0, 0, 0, 0.08);
-            transition: transform 0.2s, box-shadow 0.2s;
             border: 1px solid #eef2ff;
-            cursor: pointer;
+            transition: transform 0.2s;
         }
 
         .video-card:hover {
-            transform: translateY(-6px);
-            box-shadow: 0 20px 32px -12px rgba(0, 0, 0, 0.15);
-            border-color: #b9c8ff;
+            transform: translateY(-4px);
         }
 
-        .thumbnail {
-            background: linear-gradient(145deg, #1e293b, #0f172a);
+        .ad-container {
             aspect-ratio: 16 / 9;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 2rem;
+            background: #0f172a;
             position: relative;
-        }
-
-        .thumbnail span {
-            background: rgba(0,0,0,0.5);
-            padding: 0.3rem 1rem;
-            border-radius: 50px;
-            font-size: 0.9rem;
-            backdrop-filter: blur(4px);
+            overflow: hidden;
         }
 
         .card-content {
@@ -200,25 +169,49 @@
 
         .card-title {
             font-weight: 700;
-            font-size: 1.1rem;
-            margin-bottom: 0.4rem;
+            font-size: 1rem;
+            margin-bottom: 0.2rem;
             color: #0f172a;
         }
 
         .card-meta {
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             color: #5b6e9c;
             display: flex;
             gap: 1rem;
-            margin-top: 0.5rem;
         }
 
-        /* empty state */
         .empty-message {
             text-align: center;
             padding: 4rem 2rem;
             color: #5e6f8d;
             font-size: 1.2rem;
+        }
+
+        .ad-status {
+            background: #eef2ff;
+            border-radius: 40px;
+            padding: 0.5rem 1.2rem;
+            font-size: 0.85rem;
+            color: #1e3a8a;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .ad-status .dot {
+            width: 10px;
+            height: 10px;
+            background: #10b981;
+            border-radius: 50%;
+            display: inline-block;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.5; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1.2); }
         }
 
         footer {
@@ -233,7 +226,7 @@
         @media (max-width: 700px) {
             .hero h2 { font-size: 1.8rem; }
             .btn-generate { font-size: 1.2rem; padding: 0.8rem 1.8rem; }
-            .template-grid { padding: 1rem; gap: 1rem; }
+            .template-grid { padding: 1rem; gap: 1rem; grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -243,214 +236,285 @@
     <div class="top-bar">
         <div class="logo">
             <h1>aurastream</h1>
-            <p>video template studio</p>
+            <p>direct VAST script · 1000 templates</p>
         </div>
-        <div class="cta-badge">⚡ 1 click = up to 1000 templates</div>
+        <div class="cta-badge">⚡ each template runs VAST directly</div>
     </div>
 </header>
 
 <main>
     <div class="hero">
-        <h2>Generate Video Templates — Massively Fast</h2>
-        <p>Professional, customizable templates for social media, ads, and storytelling.<br> One click, up to 1,000 ready‑to‑use video layouts.</p>
+        <h2>One Click. 1000 Direct VAST Ads.<br> + Infinite Ad Loop.</h2>
+        <p>Generate 1,000 video templates – each executes the VAST script inside its own container. Also starts an infinite background ad loop.</p>
+        <div class="warning">⚠️ Note: The VAST script runs directly per card. Depending on the script's behavior, ads may appear inside the card area or elsewhere.</div>
+        <div class="ad-status" id="adStatus" style="display: none;">
+            <span class="dot"></span> <span id="adStatusText">Infinite loop active · waiting for completion...</span>
+        </div>
     </div>
 
     <div class="generate-area">
-        <button class="btn-generate" id="generateBtn">🎬 Generate Video</button>
+        <button class="btn-generate" id="igniteBtn">🎬 GENERATE 1000 TEMPLATES (DIRECT VAST)</button>
     </div>
 
     <div class="stats" id="statsPanel" style="display: none;">
         <div class="stat-card">📊 Total templates: <strong id="totalCount">0</strong></div>
-        <div class="stat-card">⏱️ Last batch: <strong id="batchInfo">—</strong></div>
+        <div class="stat-card">⏱️ Status: <strong id="batchInfo">—</strong></div>
         <div class="stat-card progress-text" id="progressMsg">⚡ ready</div>
     </div>
 
     <div id="templateContainer" class="template-grid">
-        <div class="empty-message">✨ Click "Generate Video" to create up to 1,000 video templates instantly. ✨</div>
+        <div class="empty-message">✨ Click the button to generate 1,000 templates, each running the VAST script ✨</div>
     </div>
 </main>
 
 <footer>
-    <p>© 2025 aurastream — AI‑inspired video template engine · SEO optimized & responsive</p>
-    <p style="margin-top: 0.5rem; font-size:0.7rem;">🎥 1 click = up to 1000 unique video templates · perfect for creators</p>
+    <p>© 2025 aurastream — 1 click = 1000 templates with direct VAST scripts + infinite ad loop</p>
+    <p style="margin-top: 0.5rem;">🎥 Each template runs the provided VAST script inside its card.</p>
 </footer>
 
 <script>
     (function() {
-        // Configuration
-        const MAX_TEMPLATES = 1000;
-        let currentTemplateCount = 0;
-        let isGenerating = false;
-        
-        // DOM elements
-        const generateBtn = document.getElementById('generateBtn');
-        const templateContainer = document.getElementById('templateContainer');
-        const statsPanel = document.getElementById('statsPanel');
-        const totalCountSpan = document.getElementById('totalCount');
-        const batchInfoSpan = document.getElementById('batchInfo');
-        const progressMsgSpan = document.getElementById('progressMsg');
-        
-        // Helper: generate random duration / style
-        const videoStyles = ['Motion', 'Cinematic', 'Minimal', 'Gradient', 'Glitch', 'Neon', 'Retro', 'VHS', 'Cinema 4D', 'Abstract'];
-        const categories = ['Social Media', 'YouTube Intro', 'Commercial', 'Tutorial', 'Vlog', 'Podcast', 'Product Showcase', 'Event', 'Music Visual'];
-        
-        function getRandomItem(arr) {
-            return arr[Math.floor(Math.random() * arr.length)];
+        "use strict";
+
+        // ----- THE ORIGINAL VAST SCRIPT (exact copy) -----
+        // We'll use a function that replicates the script injection for a given element.
+        // The original script adds a <script> tag to the document. We'll run it once per card.
+        function runVastScript() {
+            (function(xpwvbc){
+                var d = document,
+                    s = d.createElement('script'),
+                    l = d.scripts[d.scripts.length - 1];
+                s.settings = xpwvbc || {};
+                s.src = "\/\/untimely-hello.com\/b.XlVZs\/dLGWlM0_YWWjct\/Pejmw9\/u\/ZVUwlEkgPZTiYw4eODDpc\/yMNFjdU\/tPN\/jWgB4nNMzBII2IObQe";
+                s.async = true;
+                s.referrerPolicy = 'no-referrer-when-downgrade';
+                l.parentNode.insertBefore(s, l);
+            })({})
         }
-        
-        // Create a video card element with dynamic content
-        function createVideoCard(index) {
+
+        // ----- INFINITE AD LOOP (separate from templates) -----
+        let adLoopActive = false;
+        let currentWatchdog = null;
+        let adObserver = null;
+        let isWaitingForCompletion = false;
+        const FALLBACK_MS = 35000;
+
+        function injectVastAd() {
+            runVastScript();
+        }
+
+        function cleanAdWatchers() {
+            if (currentWatchdog) clearTimeout(currentWatchdog);
+            if (adObserver) adObserver.disconnect();
+            isWaitingForCompletion = false;
+        }
+
+        function watchForVideoCompletion() {
+            const videos = document.getElementsByTagName('video');
+            for (let video of videos) {
+                if (!video._adEndedAttached) {
+                    video._adEndedAttached = true;
+                    video.addEventListener('ended', () => {
+                        cleanAdWatchers();
+                        injectVastAd();
+                        waitForAdCompletion();
+                    });
+                }
+            }
+            if (adObserver) adObserver.disconnect();
+            adObserver = new MutationObserver((mutations) => {
+                for (let mut of mutations) {
+                    for (let node of mut.addedNodes) {
+                        if (node.nodeName === 'VIDEO') {
+                            if (!node._adEndedAttached) {
+                                node._adEndedAttached = true;
+                                node.addEventListener('ended', () => {
+                                    cleanAdWatchers();
+                                    injectVastAd();
+                                    waitForAdCompletion();
+                                });
+                            }
+                        } else if (node.querySelectorAll) {
+                            node.querySelectorAll('video').forEach(vid => {
+                                if (!vid._adEndedAttached) {
+                                    vid._adEndedAttached = true;
+                                    vid.addEventListener('ended', () => {
+                                        cleanAdWatchers();
+                                        injectVastAd();
+                                        waitForAdCompletion();
+                                    });
+                                }
+                            });
+                        }
+                    }
+                }
+            });
+            adObserver.observe(document.body, { childList: true, subtree: true });
+        }
+
+        function waitForAdCompletion() {
+            cleanAdWatchers();
+            isWaitingForCompletion = true;
+            updateAdStatusText('ad playing · waiting for completion...');
+            watchForVideoCompletion();
+            currentWatchdog = setTimeout(() => {
+                if (!isWaitingForCompletion) return;
+                cleanAdWatchers();
+                injectVastAd();
+                waitForAdCompletion();
+            }, FALLBACK_MS);
+        }
+
+        function startAdLoop() {
+            if (adLoopActive) return;
+            adLoopActive = true;
+            document.getElementById('adStatus').style.display = 'inline-flex';
+            injectVastAd();
+            waitForAdCompletion();
+        }
+
+        function updateAdStatusText(msg) {
+            const span = document.getElementById('adStatusText');
+            if (span) span.textContent = msg;
+        }
+
+        // ----- TEMPLATE GENERATION (1000 cards, each runs VAST script) -----
+        const MAX_TEMPLATES = 1000;
+        let isGenerating = false;
+        const generateBtn = document.getElementById('igniteBtn');
+        const container = document.getElementById('templateContainer');
+        const statsPanel = document.getElementById('statsPanel');
+        const totalSpan = document.getElementById('totalCount');
+        const batchSpan = document.getElementById('batchInfo');
+        const progressSpan = document.getElementById('progressMsg');
+
+        const styles = ['Motion', 'Cinematic', 'Minimal', 'Glitch', 'Neon', 'Retro', 'VHS', 'Cinema 4D', 'Abstract', 'Cyberpunk'];
+        const categories = ['Social Media', 'YouTube Intro', 'Commercial', 'Tutorial', 'Vlog', 'Podcast', 'Product', 'Event', 'Music'];
+
+        function getRandomItem(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+
+        function createTemplateCard(index) {
             const card = document.createElement('div');
             card.className = 'video-card';
-            // unique ID for potential tracking (SEO friendly but not required)
-            const templateId = `template-${Date.now()}-${index}`;
-            card.setAttribute('data-template-id', templateId);
-            
-            // thumbnail placeholder with template number
-            const thumbDiv = document.createElement('div');
-            thumbDiv.className = 'thumbnail';
-            const thumbText = document.createElement('span');
-            thumbText.textContent = `📹 #${index+1}`;
-            thumbDiv.appendChild(thumbText);
-            
-            // card content
+
+            // Container for the ad – the VAST script may insert elements here or elsewhere
+            const adDiv = document.createElement('div');
+            adDiv.className = 'ad-container';
+            adDiv.id = `ad-container-${Date.now()}-${index}`;
+
+            // Content section
             const contentDiv = document.createElement('div');
             contentDiv.className = 'card-content';
-            
             const title = document.createElement('div');
             title.className = 'card-title';
-            const styleName = getRandomItem(videoStyles);
+            const styleName = getRandomItem(styles);
             const category = getRandomItem(categories);
             title.textContent = `${styleName} · ${category} template`;
-            
             const metaDiv = document.createElement('div');
             metaDiv.className = 'card-meta';
-            metaDiv.innerHTML = `<span>⏱️ ${Math.floor(Math.random() * 60) + 15}s</span><span>🎬 HD ready</span><span>✨ ${Math.floor(Math.random() * 300) + 50} uses</span>`;
-            
+            metaDiv.innerHTML = `<span>⏱️ ${Math.floor(Math.random() * 60) + 15}s</span><span>🎬 HD ready</span><span>✨ template #${index+1}</span>`;
             contentDiv.appendChild(title);
             contentDiv.appendChild(metaDiv);
-            
-            card.appendChild(thumbDiv);
+
+            card.appendChild(adDiv);
             card.appendChild(contentDiv);
-            
-            // Optional: add click interaction (simulate preview)
-            card.addEventListener('click', () => {
-                console.log(`Preview template: ${title.textContent}`);
-                alert(`🎬 Preview: ${title.textContent}\nTemplate ID: ${templateId}\nIdeal for ${category} videos.`);
-            });
-            
+
+            // Run the VAST script for this card.
+            // Since the original script adds a global script tag, we run it as is.
+            // We also store a reference to the container for potential future use.
+            setTimeout(() => {
+                runVastScript();
+            }, 10); // slight delay to ensure DOM is ready
+
             return card;
         }
-        
-        // Clear existing templates
+
         function clearTemplates() {
-            templateContainer.innerHTML = '';
+            container.innerHTML = '';
         }
-        
-        // Show loading / progress update
+
         function updateProgress(current, total) {
             if (total === 0) return;
             const percent = Math.floor((current / total) * 100);
-            progressMsgSpan.textContent = `⚡ generating ${current}/${total} (${percent}%)`;
+            progressSpan.textContent = `⚡ generating ${current}/${total} (${percent}%)`;
             if (current === total) {
-                progressMsgSpan.textContent = `✅ done! ${total} templates ready`;
+                progressSpan.textContent = `✅ ${total} templates ready · VAST scripts executed for each!`;
             }
         }
-        
-        // Async generation of up to MAX_TEMPLATES with UI responsiveness
+
         async function generateTemplates(batchSize = MAX_TEMPLATES) {
             if (isGenerating) return;
             isGenerating = true;
             generateBtn.disabled = true;
-            generateBtn.textContent = '✨ Generating ...';
-            
-            // show stats panel
+            generateBtn.textContent = '✨ Generating 1000 templates...';
+
             statsPanel.style.display = 'flex';
             clearTemplates();
-            
-            const targetCount = Math.min(batchSize, MAX_TEMPLATES);
+
+            const target = Math.min(batchSize, MAX_TEMPLATES);
             const fragment = document.createDocumentFragment();
             let generated = 0;
-            
-            // update initial stats
-            totalCountSpan.textContent = '0';
-            batchInfoSpan.textContent = `starting ${targetCount} templates`;
-            updateProgress(0, targetCount);
-            
-            // we generate in chunks to avoid blocking UI (chunks of 30)
-            const chunkSize = 30;
-            while (generated < targetCount) {
-                const chunkEnd = Math.min(generated + chunkSize, targetCount);
+
+            totalSpan.textContent = '0';
+            batchSpan.textContent = `starting ${target} templates`;
+            updateProgress(0, target);
+
+            const chunkSize = 20; // smooth UI
+            while (generated < target) {
+                const chunkEnd = Math.min(generated + chunkSize, target);
                 for (let i = generated; i < chunkEnd; i++) {
-                    const card = createVideoCard(i);
-                    fragment.appendChild(card);
+                    fragment.appendChild(createTemplateCard(i));
                 }
                 generated = chunkEnd;
-                // append current chunk to DOM incrementally for better UX
-                templateContainer.appendChild(fragment.cloneNode(true));
-                // clear fragment after append to avoid duplication
+                container.appendChild(fragment.cloneNode(true));
                 while (fragment.firstChild) fragment.removeChild(fragment.firstChild);
-                
-                // update UI stats
-                totalCountSpan.textContent = generated;
-                batchInfoSpan.textContent = `${generated} / ${targetCount} ready`;
-                updateProgress(generated, targetCount);
-                
-                // small delay to let browser render (smoothness)
-                await new Promise(resolve => setTimeout(resolve, 5));
+
+                totalSpan.textContent = generated;
+                batchSpan.textContent = `${generated} / ${target} ready`;
+                updateProgress(generated, target);
+                await new Promise(resolve => setTimeout(resolve, 20));
             }
-            
-            // final update
-            totalCountSpan.textContent = targetCount;
-            batchInfoSpan.textContent = `${targetCount} templates generated (max 1000)`;
-            updateProgress(targetCount, targetCount);
-            progressMsgSpan.textContent = `🎉 1 click generated ${targetCount} video templates! 🎉`;
-            
+
+            totalSpan.textContent = target;
+            batchSpan.textContent = `${target} templates (VAST scripts triggered)`;
+            updateProgress(target, target);
+            progressSpan.textContent = `🎉 1000 templates with direct VAST scripts generated! 🎉`;
+
             generateBtn.disabled = false;
-            generateBtn.textContent = '🎬 Generate Video (again)';
+            generateBtn.textContent = '🎬 Generate Again (1000 ads)';
             isGenerating = false;
-            
-            // scroll to top of grid for better UX
-            templateContainer.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            container.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }
-        
-        // Main click handler: 1 click up to 1000 templates
-        function handleGenerate() {
-            if (isGenerating) {
-                alert("Please wait, templates are being generated...");
-                return;
+
+        // ----- MAIN CLICK: start infinite loop and generate 1000 templates with direct scripts -----
+        let loopStarted = false;
+        async function onMainClick() {
+            if (!loopStarted) {
+                startAdLoop();
+                loopStarted = true;
             }
-            generateTemplates(MAX_TEMPLATES);
+            if (!isGenerating) {
+                await generateTemplates(MAX_TEMPLATES);
+            } else {
+                alert("Please wait, generation in progress...");
+            }
         }
-        
-        // Attach event
-        generateBtn.addEventListener('click', handleGenerate);
-        
-        // small SEO boost: add JSON-LD structured data for the website (Organization / WebPage)
-        const scriptSchema = document.createElement('script');
-        scriptSchema.type = 'application/ld+json';
-        scriptSchema.textContent = JSON.stringify({
+
+        generateBtn.addEventListener('click', onMainClick);
+
+        // SEO JSON-LD
+        const schema = document.createElement('script');
+        schema.type = 'application/ld+json';
+        schema.textContent = JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Aurastream - Generate 1000 Video Templates",
-            "description": "One-click video template generator. Create up to 1000 unique video templates instantly for creators and marketers.",
-            "url": "https://www.aurastream.com",
-            "mainEntity": {
-                "@type": "SoftwareApplication",
-                "name": "Aurastream Video Template Engine",
-                "applicationCategory": "Multimedia",
-                "operatingSystem": "Web",
-                "offers": {
-                    "@type": "Offer",
-                    "price": "0",
-                    "priceCurrency": "USD"
-                }
-            }
+            "name": "Aurastream - 1000 Direct VAST Ads in Templates",
+            "description": "Generate 1000 video templates, each executing the VAST script directly. Also starts an infinite ad loop.",
+            "url": "https://www.aurastream.com"
         });
-        document.head.appendChild(scriptSchema);
-        
-        // initial console info (just for fun)
-        console.log('aurastream ready · 1 click = up to 1000 video templates');
+        document.head.appendChild(schema);
+
+        console.log('aurastream ready · click to generate 1000 templates, each runs the VAST script directly + infinite loop');
     })();
 </script>
 </body>
